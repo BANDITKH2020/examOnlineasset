@@ -1,0 +1,74 @@
+.item1 { grid-area: item1; }
+.item2 { grid-area: item2; }
+.item3 { grid-area: item3; }
+.item4 { grid-area: item4; }
+.item5 { grid-area: item5; }
+.item6 { grid-area: item6; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'item1 item1 item2 item5'
+    'item3 item3 item4 item5'
+    'item6 item6 item6 item5'
+    ;
+  gap: 10px;
+  background-color: #e6e6e6;
+  padding: 10px;
+  width: 100vw; 
+  height: 100vh;
+}
+
+.grid-container .item1 {
+  background-color: #533638;
+  text-align: center;
+  padding: 0px 0px 400px 0px;
+  font-size: 30px;
+  border: 1px solid #000;
+  color: white;
+}
+
+.grid-container .item2 {
+    background-color: #37533d;
+    text-align: center;
+    padding: 0px 0px 400px 0px;
+    font-size: 30px;
+    color: white;
+    border: 1px solid #000;
+}
+
+.grid-container .item3 {
+    background-color: #3b3654;
+    text-align: center;
+    padding: 0px 0;
+    font-size: 30px;
+    border: 1px solid #000;
+    color: white;
+}
+
+.grid-container .item4 {
+    background-color: #374f53;
+    text-align: center;
+    padding: 0px 0;
+    font-size: 30px;
+    border: 1px solid #000;
+    color: white;
+}
+
+.grid-container .item5 {
+    background-color: #533750;
+    text-align: center;
+    padding: 0px 0;
+    font-size: 30px;
+    border: 1px solid #000;
+    color: white;
+}
+
+.grid-container .item6 {
+    background-color: #535138;
+    text-align: center;
+    padding: 0px 0;
+    font-size: 30px;
+    border: 1px solid #000;
+    color: white;
+}
